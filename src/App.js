@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import ToDoList from './ToDoList';
+import AddCircleRoundedIcon from '@material-ui/icons/AddCircleRounded';
 
 const App = () => {
 
@@ -34,7 +35,7 @@ const App = () => {
           <br />
           <input className='input' type='text' placeholder='Add Items' name='listItem'
             onChange={inputEvent} value={list} />
-          <button className='button' onClick={addItem}>+</button>
+          <button className='button' onClick={addItem}><AddCircleRoundedIcon /></button>
 
           <ol className='ol'>
             {items.map((itemValue, index) => {

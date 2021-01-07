@@ -1,16 +1,16 @@
 import React from "react";
+import DeleteForeverRoundedIcon from "@material-ui/icons/DeleteForeverRounded";
 
 const ToDoList = (props) => {
   return (
     <>
       <div className="todo_style">
-        <i
-          className="fa fa-times"
-          aria-hidden="true"
+        <DeleteForeverRoundedIcon
+          className="fa-times"
           onClick={() => {
             props.onSelect(props.id);
           }}
-        ></i>
+        />
         <li className="li">{props.text}</li>
       </div>
     </>
