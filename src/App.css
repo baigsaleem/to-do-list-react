@@ -47,17 +47,12 @@
 }
 
 .button{
-  min-height: 40px;
-  width: 43px;
+  min-height: 20px;
+  width: 40px;
   border-radius: 50%;
-  border-color: transparent;
   background-color: #8566aa;
   color: #fff;
-  font-size: 40px;
-  border: none;
-  outline: none;
   margin-left: 10px;
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
 }
 
 .button:hover{

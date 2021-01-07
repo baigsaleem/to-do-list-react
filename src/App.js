@@ -35,7 +35,7 @@ const App = () => {
           <br />
           <input className='input' type='text' placeholder='Add Items' name='listItem'
             onChange={inputEvent} value={list} />
-          <button className='button' onClick={addItem}><AddCircleRoundedIcon /></button>
+          <AddCircleRoundedIcon className='button' fontSize='large' onClick={addItem} />
 
           <ol className='ol'>
             {items.map((itemValue, index) => {

@@ -7,6 +7,7 @@ const ToDoList = (props) => {
       <div className="todo_style">
         <DeleteForeverRoundedIcon
           className="fa-times"
+          aria-hidden="true"
           onClick={() => {
             props.onSelect(props.id);
           }}
